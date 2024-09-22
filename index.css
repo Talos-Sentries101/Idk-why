@@ -57,3 +57,25 @@ footer {
     text-align: center;
     clear: both;
 }
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode nav a {
+  color: #fff;
+}
+
+.dark-mode .hero {
+  background-image: url('sekiro-background-dark.jpg');
+}
+
+.dark-mode .hero h1 {
+  color: #fff;
+}
+
+.dark-mode .hero img {
+  filter: invert(1);
+}
+
+
